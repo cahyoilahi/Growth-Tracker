@@ -1,4 +1,5 @@
-Growth Tracker - Dasbor Analitik Pertumbuhan Media Sosial
+# Growth Tracker - Dasbor Analitik Pertumbuhan Media Sosial
+
 Growth Tracker adalah aplikasi web modern yang dirancang untuk membantu brand atau individu melacak dan menganalisis pertumbuhan mereka di berbagai platform media sosial. Aplikasi ini menyediakan dasbor terpusat untuk memvisualisasikan data pengikut (followers) dan suka (likes) dari waktu ke waktu.
 
 Aplikasi ini dibangun dengan arsitektur serverless menggunakan Firebase, membuatnya cepat, aman, dan mudah untuk di-deploy.
@@ -82,15 +83,25 @@ Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 /
 ├── public/               # Semua file yang akan di-deploy (frontend)
+
 │   ├── index.html
+
 │   ├── css/style.css
+
 │   └── js/app.js
+
 │
+
 ├── functions/            # (Opsional) Untuk kode backend Cloud Functions
+
 │   └── index.js
+
 │
+
 ├── firebase.json         # Konfigurasi untuk Firebase Hosting
+
 ├── .firebaserc           # Konfigurasi proyek Firebase
+
 └── README.md             # Anda sedang membacanya
 
 🔮 Langkah Selanjutnya
