@@ -4,7 +4,7 @@ Growth Tracker adalah aplikasi web modern yang dirancang untuk membantu brand at
 
 Aplikasi ini dibangun dengan arsitektur serverless menggunakan Firebase, membuatnya cepat, aman, dan mudah untuk di-deploy.
 
-✨ Fitur Utama
+## ✨ Fitur Utama
 Otentikasi Pengguna: Sistem pendaftaran dan login yang aman menggunakan username dan password.
 
 Dasbor Terpusat: Tampilan ringkas untuk semua metrik pertumbuhan di satu halaman.
@@ -17,7 +17,7 @@ Unduh Laporan: Fitur untuk mengunduh tampilan grafik sebagai file PDF.
 
 Desain Responsif: Tampilan yang optimal di berbagai perangkat, dari desktop hingga mobile.
 
-💻 Teknologi yang Digunakan
+## 💻 Teknologi yang Digunakan
 Proyek ini dibangun menggunakan teknologi modern untuk frontend dan backend.
 
 Frontend
@@ -40,7 +40,7 @@ Firebase Hosting: Untuk men-deploy dan menghosting aplikasi web secara global de
 
 (Rencana) Firebase Cloud Functions: Untuk menjalankan logika backend secara otomatis (misalnya, mengambil data dari API media sosial setiap hari).
 
-🚀 Cara Menjalankan Proyek Secara Lokal
+## 🚀 Cara Menjalankan Proyek Secara Lokal
 Untuk menjalankan proyek ini di komputer Anda, ikuti langkah-langkah berikut:
 
 Clone Repositori (Jika sudah di GitHub)
@@ -78,11 +78,11 @@ Klik kanan pada file public/index.html.
 
 Pilih "Open with Live Server".
 
-📁 Struktur Direktori
+## 📁 Struktur Direktori
 Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 /
-├── public/               # Semua file yang akan di-deploy (frontend)
+├── public/                     # Semua file yang akan di-deploy (frontend)
 
 │   ├── index.html
 
@@ -92,19 +92,21 @@ Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 │
 
-├── functions/            # (Opsional) Untuk kode backend Cloud Functions
-
+├── functions/                # (Opsional) Untuk kode backend Cloud Functions
+ 
 │   └── index.js
 
 │
 
-├── firebase.json         # Konfigurasi untuk Firebase Hosting
+├── firebase.json                # Konfigurasi untuk Firebase Hosting
 
-├── .firebaserc           # Konfigurasi proyek Firebase
+├── .firebaserc                 # Konfigurasi proyek Firebase
 
-└── README.md             # Anda sedang membacanya
+└── README.md                    # Anda sedang membacanya
 
-🔮 Langkah Selanjutnya
+
+
+## 🔮 Langkah Selanjutnya
 Proyek ini memiliki potensi besar untuk dikembangkan lebih lanjut. Beberapa langkah selanjutnya yang bisa diambil:
 
 Implementasi Cloud Functions: Mengganti mockData dengan data asli yang diambil secara otomatis dari API resmi media sosial.
