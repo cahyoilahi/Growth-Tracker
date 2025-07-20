@@ -82,7 +82,7 @@ Pilih "Open with Live Server".
 Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 /
-├── public/                     # Semua file yang akan di-deploy (frontend)
+├── public/
 
 │   ├── index.html
 
@@ -92,17 +92,17 @@ Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 │
 
-├── functions/                # (Opsional) Untuk kode backend Cloud Functions
- 
+├── functions/ 
+
 │   └── index.js
 
 │
 
-├── firebase.json                # Konfigurasi untuk Firebase Hosting
+├── firebase.json
 
-├── .firebaserc                 # Konfigurasi proyek Firebase
+├── .firebaserc
 
-└── README.md                    # Anda sedang membacanya
+└── README.md
 
 
 
