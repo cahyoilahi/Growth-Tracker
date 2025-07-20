@@ -88,13 +88,13 @@ Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 │   ├── css/style.css
 
-│   └── js/app.js
+│      └── js/app.js
 
 │
 
 ├── functions/ 
 
-│   └── index.js
+│    └── index.js
 
 │
 
@@ -102,7 +102,7 @@ Struktur proyek ini dirancang agar rapi dan mudah dikelola.
 
 ├── .firebaserc
 
-└── README.md
+  └── README.md
 
 
 
